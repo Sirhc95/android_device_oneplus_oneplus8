@@ -43,6 +43,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script
 
+# Alert Slider
+PRODUCT_PACKAGES += \
+    tri-state-key_daemon
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbluetooth_qti
