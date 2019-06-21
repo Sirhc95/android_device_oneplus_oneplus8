@@ -70,6 +70,9 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# HIDL
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
+
 # Kernel
 BOARD_KERNEL_CMDLINE := \
     console=ttyMSM0,115200n8 \
