@@ -64,6 +64,9 @@ TARGET_BOOTLOADER_BOARD_NAME := kona
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# HIDL
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
+
 # Kernel
 BOARD_KERNEL_CMDLINE := \
     console=ttyMSM0,115200n8 \
