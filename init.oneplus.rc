@@ -1,0 +1,6 @@
+on init
+    mount none /product/overlay/EmptyOverlay.apk /vendor/overlay/oneplus_shape_circle/OnePlusIconShapeCircleOverlay.apk bind
+    mount none /product/overlay/EmptyOverlay.apk /vendor/overlay/oneplus_shape_roundedrect/OnePlusIconShapeRoundedRectOverlay.apk bind
+    mount none /product/overlay/EmptyOverlay.apk /vendor/overlay/oneplus_shape_square/OnePlusIconShapeSquareOverlay.apk bind
+    mount none /product/overlay/EmptyOverlay.apk /vendor/overlay/oneplus_shape_squircle/OnePlusIconShapeSquircleOverlay.apk bind
+    mount none /product/overlay/EmptyOverlay.apk /vendor/overlay/oneplus_shape_teardrop/OnePlusIconShapeTeardropOverlay.apk bind
