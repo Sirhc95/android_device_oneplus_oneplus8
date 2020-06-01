@@ -70,6 +70,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    OnePlus8SeriesBluetooth \
     OnePlus8SeriesCarrierConfig \
     OnePlus8SeriesFrameworks
 
