@@ -68,6 +68,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/oneplus8
 
+# Overlays
+PRODUCT_PACKAGES += \
+    OnePlus8SeriesCarrierConfig \
+    OnePlus8SeriesFrameworks
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
