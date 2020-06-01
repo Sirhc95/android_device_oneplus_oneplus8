@@ -83,6 +83,17 @@ PRODUCT_PACKAGES += \
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    audio \
+    av \
+    bt \
+    display \
+    gps \
+    perf \
+    telephony \
+    wfd
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
