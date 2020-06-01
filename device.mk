@@ -76,6 +76,14 @@ PRODUCT_PACKAGES += \
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    perf \
+    telephony \
+    wfd
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
