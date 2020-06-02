@@ -94,6 +94,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.qcom.rc \
     init.recovery.qcom.rc
 
 # Update Engine
@@ -101,3 +102,6 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \
     update_verifier
+
+# Vendor
+$(call inherit-product, vendor/oneplus/oneplus8/oneplus8-vendor.mk)

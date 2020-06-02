@@ -1,0 +1,4 @@
+service dashd /vendor/bin/dashd
+    class core
+    critical
+    group root system
