@@ -47,6 +47,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Init
 PRODUCT_PACKAGES += \
+    init.qcom.rc \
     init.recovery.qcom.rc
 
 PRODUCT_COPY_FILES += \
@@ -82,3 +83,6 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
+
+# Vendor
+$(call inherit-product, vendor/oneplus/oneplus8/oneplus8-vendor.mk)
