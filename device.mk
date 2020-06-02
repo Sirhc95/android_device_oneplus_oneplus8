@@ -104,6 +104,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     AOSPAOnePlus8SeriesFrameworks \
     AOSPAOnePlus8SeriesSystemUI \
+    OnePlus8Frameworks \
+    OnePlus8ProFrameworks \
     OnePlus8SeriesBluetooth \
     OnePlus8SeriesCarrierConfig \
     OnePlus8SeriesFrameworks
