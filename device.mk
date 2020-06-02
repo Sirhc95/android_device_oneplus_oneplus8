@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
 # Apex
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbluetooth_qti
+
 # Boot
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
