@@ -37,5 +37,10 @@ property Name is called. -->
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="60" />
                 <Prop Name="ro.vendor.at_library" Value="libqti-at.so" />
 
+                <!-- Add for GCE-12831 to enable bservice limit. -->
+                <Prop Name="ro.vendor.qti.sys.fw.bservice_enable" Value="true" />
+                <Prop Name="ro.vendor.qti.sys.fw.bservice_limit" Value="8" />
+                <Prop Name="ro.vendor.qti.sys.fw.bservice_age" Value="5000" />
+
     </PerfConfigs>
 </PerfConfigsStore>
