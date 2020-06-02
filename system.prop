@@ -62,3 +62,9 @@ vendor.mm.enable.qcom_parser=134086655
 
 # Sensors
 persist.vendor.naruto.light.support=true
+
+## CUSTOM PROPERTIES BELOW ##
+
+# Sensors
+ro.sensor.pickup=oneplus.sensor.pickup
+ro.sensor.pocket=oneplus.sensor.op_motion_detect

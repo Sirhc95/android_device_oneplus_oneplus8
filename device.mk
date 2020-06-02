@@ -60,6 +60,10 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     librecovery_updater_msm \
     libz
 
+# Doze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # Fastboot
 PRODUCT_PACKAGES += \
     fastbootd
