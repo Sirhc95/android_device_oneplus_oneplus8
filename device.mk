@@ -65,6 +65,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPAOnePlus8SeriesFrameworks \
     OnePlus8SeriesBluetooth
 
 # Partitions
