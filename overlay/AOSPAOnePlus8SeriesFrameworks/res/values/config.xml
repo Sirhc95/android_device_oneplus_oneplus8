@@ -37,4 +37,12 @@
         <item>co.aospa.device.TriStateHandler</item>
     </string-array>
 
+    <!-- Whether device has physical alert slider. -->
+    <bool name="config_hasAlertSlider">true</bool>
+
+    <!-- The location of the devices physical alert slider.
+         0: Left
+         1: Right -->
+    <integer name="config_alertSliderLocation">1</integer>
+
 </resources>
