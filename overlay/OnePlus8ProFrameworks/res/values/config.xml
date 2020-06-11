@@ -19,4 +19,10 @@
     <string name="config_mainBuiltInDisplayCutout">M-391.0,60.0A33.0,33.0,0,0,1,-457.0,60.0A33.0,33.0,0,0,1,-391.0,60.0Z M -455,0 L -389,0 Z M -540,0 L -540,90 Z</string>
     <string name="config_mainBuiltInDisplayCutoutRectApproximation">M-391.0,60.0A33.0,33.0,0,0,1,-457.0,60.0A33.0,33.0,0,0,1,-391.0,60.0Z M -455,0 L -389,0 Z M -540,0 L -540,90 Z</string>
 
+    <!-- The default peak refresh rate for a given device. -->
+    <integer name="config_defaultPeakRefreshRate">120</integer>
+
+    <!-- default refresh rate in the zone defined by brightness and ambient thresholds -->
+    <integer name="config_defaultRefreshRateInZone">120</integer>
+
 </resources>
