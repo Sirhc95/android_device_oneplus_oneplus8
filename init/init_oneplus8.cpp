@@ -64,9 +64,15 @@ void vendor_load_properties() {
     property_override("ro.product.system.device", "OnePlus8");
     property_override("ro.product.system.model", "OnePlus 8");
     property_override("ro.product.device", "OnePlus8");
+    property_override("ro.fod.pos.x", "453");
+    property_override("ro.fod.pos.y", "1823");
+    property_override("ro.fod.size", "174");
   } else if (variant == "OnePlus8Pro") {
     property_override("ro.product.system.device", "OnePlus8Pro");
     property_override("ro.product.system.model", "OnePlus 8 Pro");
     property_override("ro.product.device", "OnePlus8Pro");
+    property_override("ro.fod.pos.x", "437");
+    property_override("ro.fod.pos.y", "1952");
+    property_override("ro.fod.size", "174");
   }
 }
