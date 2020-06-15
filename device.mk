@@ -129,8 +129,10 @@ PRODUCT_COPY_FILES += \
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
+    audio \
     av \
     bt \
+    display \
     perf \
     telephony \
     wfd
