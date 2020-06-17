@@ -62,3 +62,8 @@ vendor.mm.enable.qcom_parser=134086655
 
 # Sensors
 persist.vendor.naruto.light.support=false
+
+## CUSTOM PROPERTIES BELOW ##
+
+# Recovery
+ro.recovery.ui.margin_height=150
