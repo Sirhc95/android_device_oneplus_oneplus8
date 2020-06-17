@@ -61,7 +61,7 @@ persist.netmon.linger=5000
 vendor.mm.enable.qcom_parser=134086655
 
 # Sensors
-persist.vendor.naruto.light.support=true
+persist.vendor.naruto.light.support=false
 
 ## CUSTOM PROPERTIES BELOW ##
 
