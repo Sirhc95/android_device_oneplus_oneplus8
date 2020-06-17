@@ -65,6 +65,9 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     librecovery_updater_msm \
     libz
 
+# Common
+$(call inherit-product, device/oneplus/common/common.mk)
+
 # Doze
 PRODUCT_PACKAGES += \
     ParanoidDoze
@@ -89,13 +92,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/keylayout/fpc1020.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/fpc1020.kl \
 	$(LOCAL_PATH)/keylayout/gf_input.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gf_input.kl \
 	$(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl
-
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.oneplus8
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/lights/android.hardware.light@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/etc/init/android.hardware.light@2.0-service.rc
 
 # NFC
 PRODUCT_PACKAGES += \
