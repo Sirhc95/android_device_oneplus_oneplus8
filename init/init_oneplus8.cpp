@@ -58,6 +58,7 @@ void property_override_dual(char const system_prop[], char const vendor_prop[],
 }
 
 void vendor_load_properties() {
+  property_override_dual("ro.adb.secure", "ro.adb.secure", "0");
   std::string variant = GetProperty(PROP_VARIANT, "");
   if (variant == "OnePlus8") {
     property_override("ro.product.system.device", "OnePlus8");
