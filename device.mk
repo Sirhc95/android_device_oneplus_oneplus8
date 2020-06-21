@@ -123,6 +123,11 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perfconfigstore.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/perf/perfconfigstore.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.2-impl \
+    android.hardware.power@1.2-service
+
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     audio \
