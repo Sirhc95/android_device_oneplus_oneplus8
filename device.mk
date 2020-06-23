@@ -92,7 +92,8 @@ PRODUCT_PACKAGES += \
     OnePlus8ProFrameworks \
     OnePlus8ProSystemUI \
     OnePlus8SeriesBluetooth \
-    OnePlus8SystemUI
+    OnePlus8SystemUI \
+    OnePlus8SeriesSystemUI
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
