@@ -25,7 +25,6 @@ DEVICE_PROVISIONED=1
 ro.recovery.ui.margin_height=150
 
 # Telephony
-ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 
 # WFD
@@ -43,3 +42,6 @@ ro.audio.monitorRotation=true
 
 # MM
 vendor.mm.enable.qcom_parser=134086655
+
+# Telephony
+ro.telephony.default_network=33,22
