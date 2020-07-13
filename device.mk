@@ -64,6 +64,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    OnePlus8ProSystemUI \
     OnePlus8SystemUI
 
 # Partitions
