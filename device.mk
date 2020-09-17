@@ -91,7 +91,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     display \
     gps \
     perf \
-    telephony \
     wfd
 
 # Shipping API
