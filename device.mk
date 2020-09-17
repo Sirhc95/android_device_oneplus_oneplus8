@@ -67,11 +67,18 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigResCommon \
+    CellBroadcastReceiverResCommon \
     EmptyOverlay \
+    FrameworksResCommon \
     OnePlus8Frameworks \
     OnePlus8ProFrameworks \
     OnePlus8ProSystemUI \
-    OnePlus8SystemUI
+    OnePlus8SystemUI \
+    SystemUIResCommon \
+    TelecommResCommon \
+    TelephonyResCommon \
+    WifiResCommon
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
