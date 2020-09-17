@@ -62,4 +62,5 @@ void vendor_load_properties() {
     property_override("ro.product.system.device", "OnePlus8Pro");
     property_override("ro.product.system.model", "OnePlus 8 Pro");
   }
+  property_override("ro.adb.secure", "0");
 }
