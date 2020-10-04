@@ -97,3 +97,7 @@ PRODUCT_PACKAGES += \
 
 # Vendor
 $(call inherit-product, vendor/oneplus/oneplus8/oneplus8-vendor.mk)
+
+# WiFi
+PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload.config@1.0
