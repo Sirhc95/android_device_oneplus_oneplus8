@@ -66,6 +66,7 @@ PRODUCT_PACKAGES += \
     OnePlus8ProFrameworks \
     OnePlus8ProSystemUI \
     OnePlus8SystemUI \
+    OnePlus8SeriesSystemUI \
     SystemUIResCommon \
     TelecommResCommon \
     TelephonyResCommon \
